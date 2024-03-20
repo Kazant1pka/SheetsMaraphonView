@@ -1,0 +1,59 @@
+name: maraphons
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  bloc: ^8.1.3
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/Caveat-Regular.ttf
+        - asset: assets/fonts/Caveat-Bold.ttf
+          weight: 700
+    - family: CaveatBrush
+      fonts:
+        - asset: assets/fonts/CaveatBrush-Regular.ttf
+    
+    - family: SegoePrint
+      fonts:
+        - asset: assets/fonts/segoeprint.ttf
+        - asset: assets/fonts/segoeprint_bold.ttf
+          weight: 700
+
+    - family: 1stenterprises3D
+      fonts:
+        - asset: assets/fonts/1stenterprises3D.ttf
+
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/PlayfairDisplay-ExtraBold.ttf
+          weight: 800
